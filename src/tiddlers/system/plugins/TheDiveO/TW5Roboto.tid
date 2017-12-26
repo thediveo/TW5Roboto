@@ -1,0 +1,12 @@
+author: TheDiveO
+created: 20140902114846490
+description: Google's Roboto font family in an easy-to-use plugin for TiddlyWiki 5
+list: readme license history
+modified: 20171226175618277
+plugin-type: plugin
+source: http://thediveo.github.io/TW5Roboto
+title: $:/plugins/TheDiveO/TW5Roboto
+type: application/json
+version: 0.5.0-dev
+
+{"tiddlers": {}}
