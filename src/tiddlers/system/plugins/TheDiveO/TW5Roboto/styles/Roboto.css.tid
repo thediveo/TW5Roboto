@@ -1,0 +1,10 @@
+created: 20171226181401344
+modified: 20171226182023710
+tags: $:/tags/Stylesheet
+title: $:/plugins/TheDiveO/TW5Roboto/styles/Roboto.css
+type: text/css
+
+html {
+	font-family: Roboto;
+    font-weight: 400;
+}
