@@ -11,9 +11,9 @@
     ],
     "build": {
 		"release": [
-			"--packplugin", "$:/plugins/TheDiveO/Skeleton",
-			"--rendertemplatedtiddler", "$:/plugins/TheDiveO/Skeleton", "$:/core/templates/tid-tiddler", "skeleton.tid", "", "text/plain",
-			"--rendertiddler", "$:/plugins/TheDiveO/ThirdFlow/templates/save-all-wo-plugin-sources", "skeleton.html", "text/plain"
+			"--packplugin", "$:/plugins/TheDiveO/TW5Roboto",
+			"--rendertemplatedtiddler", "$:/plugins/TheDiveO/TW5Roboto", "$:/core/templates/tid-tiddler", "tw5roboto.tid", "", "text/plain",
+			"--rendertiddler", "$:/plugins/TheDiveO/ThirdFlow/templates/save-all-wo-plugin-sources", "tw5roboto.html", "text/plain"
 		]
     },
     "themes": [
