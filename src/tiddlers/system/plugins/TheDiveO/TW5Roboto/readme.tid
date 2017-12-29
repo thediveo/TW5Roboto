@@ -1,11 +1,28 @@
 created: 20140902083641711
-modified: 20171226183320988
+modified: 20171229220525420
 title: $:/plugins/TheDiveO/TW5Roboto/readme
 type: text/vnd.tiddlywiki
+
+\define w(wt,txt) <span style="font-weight: $wt$;">//$txt$//</span>
 
 ! About
 
 The //TW5Roboto// plugin provides Google's [[Roboto font family|https://fonts.google.com/specimen/Roboto]] in an easy-to-use plugin for TiddlyWiki 5. Simply drop this plugin into your own TiddlyWiki(s) and off you go...!
+
+Font weights supported by this plugin:
+
+* 100 thin: <<w 100 "lorem ipsum">>,
+* 300 light: <<w 300 "lorem ipsum">>,
+* 400 regular: <<w 400 "lorem ipsum">>,
+* 500 medium: <<w 500 "lorem ipsum">>,
+* 700 bold: <<w 700 "lorem ipsum">>,
+* 900 black: <<w 900 "lorem ipsum">>.
+
+Languages supported by this plugin:
+
+* Latin and Latin Extended: ABC ĂČĜ,
+* Greek and Greek Extended: ΑΒΓ ᾈᾊᾎ,
+* Cyrillic and Cyrillic Extended: АБГ.
 
 ! Thanks To...
 
@@ -15,6 +32,6 @@ The //TW5Roboto// plugin provides Google's [[Roboto font family|https://fonts.go
 
 ! Notes
 
-* At this time, this plugin doesn't use WOFF2 in order to achieve a better browser coverage with [[WOFF|https://caniuse.com/#feat=woff]] compared to [[WOFF2|https://caniuse.com/#feat=woff2]].
+* At this time, this plugin uses the older WOFF web font format instead of the newer and better compressing WOFF2. This is in order to achieve a better browser coverage; compare [[WOFF coverage|https://caniuse.com/#feat=woff]] with [[WOFF2 coverage|https://caniuse.com/#feat=woff2]].
 
 * This plugin will always use its embedded Roboto font family, even if Roboto is installed locally. Learning from my experience with Font Awesome, this ensures that users always experience a consistent Roboto appearance as intended by the plugin and specific Wiki creators.
