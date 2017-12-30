@@ -1,9 +1,9 @@
 created: 20140902083641711
-modified: 20171229220525420
+modified: 20171230170258878
 title: $:/plugins/TheDiveO/TW5Roboto/readme
 type: text/vnd.tiddlywiki
 
-\define w(wt,txt) <span style="font-weight: $wt$;">//$txt$//</span>
+\define rw(wt,txt) <span style="font-weight: $wt$;">//$txt$//</span>
 
 ! About
 
@@ -11,18 +11,18 @@ The //TW5Roboto// plugin provides Google's [[Roboto font family|https://fonts.go
 
 Font weights supported by this plugin:
 
-* 100 thin: <<w 100 "lorem ipsum">>,
-* 300 light: <<w 300 "lorem ipsum">>,
-* 400 regular: <<w 400 "lorem ipsum">>,
-* 500 medium: <<w 500 "lorem ipsum">>,
-* 700 bold: <<w 700 "lorem ipsum">>,
-* 900 black: <<w 900 "lorem ipsum">>.
+* 100 thin: <<rw 100 "lorem ipsum">>,
+* 300 light: <<rw 300 "lorem ipsum">>,
+* 400 regular: <<rw 400 "lorem ipsum">>,
+* 500 medium: <<rw 500 "lorem ipsum">>,
+* 700 bold: <<rw 700 "lorem ipsum">>,
+* 900 black: <<rw 900 "lorem ipsum">>.
 
 Languages supported by this plugin:
 
 * Latin and Latin Extended: ABC ĂČĜ,
-* Greek and Greek Extended: ΑΒΓ ᾈᾊᾎ,
-* Cyrillic and Cyrillic Extended: АБГ.
+* Greek (and Greek Extended -- unclear): ΑΒΓ,
+* Cyrillic (and Cyrillic Extended -- unclear): АБГ.
 
 ! Thanks To...
 

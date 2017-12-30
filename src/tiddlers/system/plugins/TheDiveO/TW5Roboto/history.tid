@@ -1,7 +1,8 @@
 created: 20140902083720188
-modified: 20171226180044583
+modified: 20171230170432022
 title: $:/plugins/TheDiveO/TW5Roboto/history
 type: text/vnd.tiddlywiki
 
 * ''1.0.0'' -- first stable release of the Google Roboto font family plugin.
-
+* ''0.9.5'' -- now includes all available weights (100, 300, 400, 500, 700, and 900), as well as Cyrillic and Greek.
+* ''0.9.0'' -- first test release.
